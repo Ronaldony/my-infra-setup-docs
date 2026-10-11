@@ -62,6 +62,10 @@
 - [FastMCP Tool Routing 후속 Reliability 검증 및 회귀 기준선](docs/fastmcp/fastmcp-routing-oauth-validation-baseline.md) — `fastmcp-mcp-tool-routing.md`의 후속 reliability 작업으로 Tool Search 품질, 실제 E2E, OAuth 재시작·state 재사용, stdio 동시성 수정, catalog 회귀, 버전 기준선과 GPT Tool Calling 반복 관찰을 정리합니다.
 - [FastMCP RDC Device Pinning 및 Discovery Isolation 구성](docs/fastmcp/fastmcp-rdc-device-isolation.md) — hosted Remote Desktop Commander 계정에 여러 Device가 등록된 환경에서 RDC 전용 deviceId 강제, 다른 Device 호출 차단, account-wide device discovery 격리, fail-closed 및 실제 E2E 검증을 정리합니다.
 
+### Obsidian
+
+- [Obsidian Local REST API 기반 MCP 구축 및 원격 Gateway 연동](docs/obsidian/obsidian-local-rest-api-mcp-integration.md) — Local REST API 루프백 제한, 독립 stdio MCP·FastMCP Gateway·Secure MCP Tunnel 연동, 실제 CRUD·검색·성능 검증, 특수 파일명 URL 인코딩 오류의 원인과 수정 및 운영 제약을 정리합니다.
+
 ### Proxmox
 
 - [Proxmox VM 인터넷 Egress 및 절전 독립성 구성](docs/proxmox/proxmox-vm-internet-egress.md) — Proxmox Host 기반 NAT, Guest gateway 전환, Windows S3 독립성, 재부팅 persistence, VM LAN prefix 정규화 과정을 정리합니다.
